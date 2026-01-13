@@ -35,6 +35,13 @@ html, body {
   background: #fff6dd;
   display: flex;
 }
+.page-1 h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 52px;
+  margin: 15px 0;
+  color: #fc2a2a;
+}
+
 
 .page-2 {
   background: #ffebf0;
@@ -93,6 +100,14 @@ html, body {
   border-radius: 16px;
   max-width: 600px;
 }
+/* ❤️ Romantic font for Page 3 message */
+.page-3 .message-box p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+  line-height: 1.7;
+  color: #333;
+}
+
 
 /* BUTTON */
 button {
@@ -132,4 +147,18 @@ button {
   h1 {
     font-size: 36px;
   }
+}
+
+/* POV text adjustment on first page */
+/* POV text adjustment on first page */
+.page-1 .pov {
+  font-size: 22px;
+  font-weight: bold;     /* 👈 makes it bold */
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+/* Move Start Celebration button down on first page */
+.page-1 button {
+  margin-top: 50px;   /* increase to move further down */
 }
