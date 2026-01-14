@@ -259,4 +259,22 @@ button {
     line-height: 1.7;
   }
 }
+/* 📱 MOBILE VIEW FIX */
+@media (max-width: 768px) {
+
+  /* Page 2 gallery layout */
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+    gap: 15px;
+    padding: 0 20px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+  }
+
+}
+
 
