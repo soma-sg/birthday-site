@@ -4,7 +4,7 @@
 A simple birthday surprise website made with HTML, CSS, and JavaScript.
 
 ✨ Features:
-- Heart falling animation
+- Heart falling animation.
 - Photo gallery with memories
 - Special birthday message
 - Mobile friendly
